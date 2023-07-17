@@ -1,0 +1,99 @@
+/* work sans font family google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* sharde CSS */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-bg {
+    background: rgba(255, 144, 14, 0.10);
+
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 15px 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.p-primary {
+    color: #727272;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* header css */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 240px 20px 228px;
+}
+
+.nav-title {}
+
+.nav-menu {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    /* display: flex; */
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+
+.nav-menu ul li {
+    list-style: none;
+
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1.2rem;
+
+}
+
+/* header titele section */
+.header-title {
+    text-align: center;
+    padding: 100px 400px;
+}
+
+.header-title-one {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/* Banner section */
+#banner{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+height: 100vh;
+width: 100%;
+margin: 0px auto;
+}
+.banner{
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 80%;
+}
+
+
+
+
+

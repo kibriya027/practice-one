@@ -1,0 +1,17 @@
+/* Mobile Device */
+@media screen and (max-width:576px) {
+    .nav, #banner {
+        /* grid-template-columns: repeat(1, 1fr); */
+        flex-direction: column
+    }
+
+    .nav, .header-title{
+        padding: 10px 10px;
+        margin: 0;
+    }
+    .banner{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+}
