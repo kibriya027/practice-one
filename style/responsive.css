@@ -1,6 +1,6 @@
 /* Mobile Device */
 @media screen and (max-width:576px) {
-    .nav, #banner {
+    .nav, #banner, .feature-list, .feature {
         /* grid-template-columns: repeat(1, 1fr); */
         flex-direction: column
     }
@@ -13,5 +13,15 @@
         width: 100%;
         height: 100%;
         background-size: cover;
+    }
+    .feature-list-image{
+        grid-template-columns: 1fr;
+    }
+    .feature-list, .feature{
+        margin: 10px 10px;
+    }
+    .card{
+        padding: 0;
+        margin: 0;
     }
 }
