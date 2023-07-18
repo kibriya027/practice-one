@@ -136,7 +136,7 @@ font-weight: 700;
     gap: 3rem;
     margin: 100px 240px;
 }
-.feature-content h3{
+.h3-primary{
     color:  #131313;
 font-size: 3.8rem;
 font-weight: 700;
@@ -174,9 +174,68 @@ line-height: 40px;
 }
 
 /* Feature section End */
+/* Some fact Section Star */
+.some-fact{
+    margin: 50px 240px;
+}
+/* Some fact Section End */
 
+/* Card section Start */
 
+.card-name{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 240px;
+    /* align-items: center; */
+}
+.card-list{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+
+}
+.card-list > img{
+    margin-top: 25px;
+}
+/* Card section End */
+
+/* Sponsor section Start */
+
+.sponsor{
+    margin: 30px 500px;
+    text-align: center;
+}
+.sponsor > h3 {
+    font-size: 2.8rem;
+}
+
+/* Sponsor section End */
+
+/* Socila Section Start */
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 240px;
+}
+/* Socila Section End */
 /* Main Section End */
+
+/* Footer Section Start */
+
+footer{
+
+    text-align: center;
+    background: #FFF;
+    margin: 200px 240px;
+}
+.footer-content{
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 40px 50px;
+}
+/* Footer Section End */
 
 
 
